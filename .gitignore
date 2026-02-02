@@ -1,0 +1,43 @@
+# Sensitive files - NEVER commit
+credentials/
+*.json
+*.key
+*.pem
+token*
+secret*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Browser data
+browser/
+
+# Media files
+media/
+
+# Telegram data
+telegram/
+
+# Cron jobs (might have sensitive data)
+cron/
+
+# Device data
+devices/
+
+# OpenClaw internals
+openclaw.json*
+clawd ->
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+*.bak
+*.backup
+*.save
